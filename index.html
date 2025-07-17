@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>СПА КОМПЛЕКС — Сакские термальные источники</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="favicon-logo.png">
+</head>
+<body>
+ <header>
+  <div class="header-container">
+     <!-- ЛОГОТИП -->
+    <a href="#home" class="logo-link">
+      <img src="logo.png" alt="Термы Крым" class="site-logo">
+    </a>
+    <button class="menu-toggle" aria-label="Меню">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="main-menu">
+      <a href="#home">Главная</a>
+      <a href="#about">О комплексе</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="main-title" id="home">
+      <h1>СПА КОМПЛЕКС</h1>
+      <h2>Сакские термальные источники</h2>
+    </section>
+
+    <!-- Первый блок: большая картинка, текст справа -->
+    <section class="big-image-block" id="about">
+      <img src="photo1.jpeg" alt="Территория СПА комплекса"/>
+      <div class="img-description description-right beige block-equal">
+        <h3>Территория СПА</h3>
+        <p>
+          Окунитесь в атмосферу гармонии и спокойствия.<br>
+          Современные бассейны с уникальной водой для вашего здоровья и отдыха.<br>
+          Удобная инфраструктура, зелёные зоны и архитектура, которая переносит в атмосферу античного уюта.<br>
+          Идеально для семейного отдыха и релакса с друзьями!
+        </p>
+      </div>
+    </section>
+
+    <!-- Второй блок: текст слева, картинка справа -->
+    <section class="medium-image-block" id="about2">
+      <div class="img-description description-left beige block-equal">
+        <h3>О комплексе</h3>
+        <p>
+          Комплекс термальных купален с уникальной природной водой, античной атмосферой и архитектурой.<br>
+          У нас вы найдете SPA-программы, финскую сауну, турецкий хамам, купальни под открытым небом и современные зоны отдыха.<br>
+          Погрузитесь в заботу о себе и получите заряд энергии на долгое время!
+        </p>
+      </div>
+      <img src="photo2.jpeg" alt="О комплексе"/>
+    </section>
+
+    <!-- Третий блок: текст по центру поверх широкой картинки -->
+    <section class="wide-image-block" id="relax">
+      <img src="photo3.jpeg" alt="SPA и релакс"/>
+      <div class="img-description description-top-center beige block-equal">
+        <h3>SPA и релакс</h3>
+        <p>
+          В нашем комплексе созданы все условия для полноценного отдыха и восстановления. <br>
+          Просторные термальные бассейны, индивидуальные процедуры и внимательный персонал.<br>
+          Попробуйте расслабляющий массаж, окунитесь в тёплую воду и оставьте заботы за воротами!
+        </p>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+       <section class="reviews-section reviews-pattern-bg" id="reviews">
+  <div class="reviews-grid">
+    <div class="review-block">
+      <h3>Идеальный отдых</h3>
+      <p>«Посетили комплекс всей семьей — все остались довольны! Бассейны очень чистые, сервис на высоте.»</p>
+      <span class="review-author">/ Екатерина</span>
+    </div>
+    <div class="review-block">
+      <h3>Здоровье и эмоции</h3>
+      <p>«Прошла курс SPA-процедур, получила отличный результат! Термальная вода реально помогает.»</p>
+      <span class="review-author">/ Наталья</span>
+    </div>
+    <div class="review-block">
+      <h3>Лучшее место в Крыму</h3>
+      <p>«Понравился хамам и открытые купальни, приедем ещё! Очень душевно и по-домашнему.»</p>
+      <span class="review-author">/ Олег</span>
+    </div>
+    <div class="reviews-image-big">
+      <img src="photo4.jpeg" alt="SPA зал" />
+    </div>
+  </div>
+</section>
+
+
+    <!-- Контакты и карта -->
+    <section class="contacts-map-block" id="contacts">
+      <div class="contacts-block">
+        <h4>Контакты</h4>
+        <b>ТЕРМЫКРЫМ</b><br>
+        Крым, г. Саки, ул. Приморская, 23<br>
+        +7 (978) 123-45-67<br>
+        info@termykrym.ru<br>
+        <span class="contacts-note">
+          По всем вопросам звоните или пишите на почту — всегда рады вам!
+        </span>
+      </div>
+      <div class="map-block">
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=34.100318%2C44.948237&z=13" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <p>© СПА КОМПЛЕКС с 2025 года | 
+    <a href="https://t.me/твой_ник" target="_blank" rel="noopener noreferrer">Telegram</a> | 
+    <a href="https://wa.me/твой_номер" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
