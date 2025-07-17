@@ -37,6 +37,8 @@ header {
   margin: 0 auto;
   position: relative;
   padding: 12px 20px;
+  display: flex;
+  align-items: center;
 }
 
 /* Стили для бургер-меню */
@@ -86,10 +88,14 @@ header {
 }
 
 .main-menu {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 24px 0 12px 0;
-  text-align: center;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
 }
 
 .main-menu a {
@@ -701,10 +707,10 @@ section {
 }
 
 .site-logo {
-  height: 52px;         
+  background: transparent;
+  height: 50px;         
   width: auto;
   vertical-align: middle;
-  margin-right: 28px;   
   display: inline-block;
 }
 
@@ -712,6 +718,7 @@ section {
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
+  padding: 0;
 }
 .header-container {
   display: flex;
